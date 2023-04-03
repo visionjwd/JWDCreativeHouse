@@ -200,7 +200,8 @@
         background: url("../Assets/videography2.jpg");
         background-size: cover;
         background-position: center;
-        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
         height: 90vh;
     }
     .showcase{
