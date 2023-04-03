@@ -16,9 +16,3 @@ a{
     overflow-x: hidden;
   }
 }
-
-@keyframe fade-in{
-  100%{
-    opacity: 1;
-  }
-}

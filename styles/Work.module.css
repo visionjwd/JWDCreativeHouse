@@ -194,6 +194,9 @@
 }
 @media only screen and (max-width: 1120px){
     .workintro{
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
         background: url("../Assets/videography2.jpg");
         background-size: cover;
         background-position: center;

@@ -211,6 +211,11 @@
     
 }
 @media only screen and (max-width: 820px) and (orientation: portrait){
+    .hero{
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+    }
     .logo{
         background-size: 60vw;
         background-position: top 40% left 50%;

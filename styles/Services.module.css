@@ -73,6 +73,8 @@
 @media only screen and (max-width: 750px) and (orientation: portrait){
     .pricing{
         width: 100%;
+        overflow-x: hidden;
+        margin: 0;
         height: 100%;
         display: flex;
         flex-direction: column;

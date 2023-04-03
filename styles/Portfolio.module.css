@@ -71,6 +71,11 @@
 }
 
 @media only screen and (max-width: 850px){
+    .Name{
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+    }
     .photoheader{
         font-size: 40px;
     }

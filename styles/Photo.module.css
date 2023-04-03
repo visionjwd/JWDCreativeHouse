@@ -131,6 +131,11 @@
 }
 
 @media only screen and (max-width: 750px){
+    .photography{
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0;
+    }
     .titlesection h1{
         font-size: 60px;
     }
