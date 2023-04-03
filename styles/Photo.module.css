@@ -1,0 +1,188 @@
+.photography{
+    background: white;
+    padding-top: 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.photography button{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    background: var(--primary);
+    border: 2px solid white;
+    color: white;
+    width: 100px;
+    height: 120%;
+    font-family: 'Oswald', sans-serif;
+    transition: all 0.4s;
+}
+.photography button:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.rights{
+    flex: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.back{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.rights button{
+    height: 50px;
+    background: var(--primary);
+    border: none;
+    color: black;
+}
+.rights svg{
+    font-size: 60px;
+    margin-left: 30%;
+}
+.titlesection{
+    width: 100%;
+    writing-mode: vertical-rl;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titlesection h1{
+    display:flex;
+    flex-direction: row;
+    padding-top: 5%;
+    font-size: 100px;
+    position: fixed;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5%;
+}
+.projectContainer{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    flex: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}       
+.descriptionbox{
+    display: flex;
+    flex-direction: column;
+}
+.photolinks{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+.photobg{
+    width: 60vw;
+    height: 35vw;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+    transition: all 0.3s;
+}
+.photobg:hover{
+    background-size: 102%;
+}
+.projectTitle{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.projectdescription{
+    margin-top: 0;
+    font-size: 20px;
+}
+.toVid button{
+    margin-top: 40px;
+    height: 35px;
+    border: 2px solid black;
+    color: black;
+}
+.videogallery{
+    padding-top: 4%;
+    flex: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-contents: center;
+}
+.videogallery iframe{
+    width: 50vw;
+    height: 29vw;
+    margin-bottom: 4%;
+}
+
+@media only screen and (max-width: 750px){
+    .titlesection h1{
+        font-size: 60px;
+    }
+    .projectTitle{
+        font-size: 30px;
+        z-index: 0;
+    }
+    .photoLinks{
+        width: 100%;
+        height: 100%;
+    }
+    .photoLinks button{
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+    .projectdescription{
+        display: none;
+    }
+    .photography button{
+        font-size: 12px;   
+        width: 80px;
+        margin-top: 0;
+        height: 27px;
+    }
+    .toVid button{
+        margin-top: 40px;
+        width: 50px;
+        height: 25px;
+        border: 2px solid black;
+        color: black;
+    }
+    .videogallery iframe{
+        width: 65vw;
+        height: 37vw;
+        margin-bottom: 10%;
+    }
+}
+@media only screen and (max-height: 450px) and (orientation: landscape){
+    .photography{
+        padding-top: 40px;
+    }
+    .titlesection h1{
+        font-size: 40px;
+        padding-left: 6%;
+    }
+    .toVid button{
+        margin-top: 10px;
+        width: 50px;
+        height: 25px;
+        border: 2px solid black;
+        color: black;
+        font-size: 10px;
+    }
+}

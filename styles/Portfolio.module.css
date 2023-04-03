@@ -1,0 +1,88 @@
+.Name{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+.gallery{
+    flex: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background: black;
+}
+.masonry{
+    padding-top: 100px;
+    padding-bottom: 10%;
+    width: 90%;
+    animation: fade-in forwards 1.5s ease-in;
+}
+.photoTitle{
+    flex: 20%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    writing-mode: horizontal-tb;
+    margin-top: 90px;
+}
+.back{
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.back button{
+    height: 70px;
+    background: var(--primary);
+    align-content: center;
+    justify-content: center;
+    border: none;
+    color: black;
+    transition: all 0.4s;
+}
+.back button:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+}
+.photoTitle svg{
+    font-size: 80px;
+}
+.photoheader{
+    margin-top: 120px;
+    height: 100%;
+    writing-mode: vertical-lr;
+    font-size: 70px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+.photoheader1{
+    margin-top: 120px;
+    height: 100%;
+    writing-mode: vertical-lr;
+    font-size: 60px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 850px){
+    .photoheader{
+        font-size: 40px;
+    }
+    .photoheader1{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-height: 450px) and (orientation: landscape){
+    .photoheader{
+        font-size: 25px;
+    }
+    .photoheader1{
+        font-size: 17px;
+    }
+}

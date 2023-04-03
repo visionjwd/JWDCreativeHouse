@@ -1,0 +1,336 @@
+.work{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    flex: 100%;
+}
+.workintro{
+    background-image: url("../Assets/workbg.jpg");
+    width: 100%;
+    height: 96vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+.text h1{
+    font-size: 150px;
+    color: white;
+}
+.digitization{
+    width:  100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.3s;
+}
+.digitext{
+    display: flex;
+    flex: 50%;
+    height: 100%;
+    flex-direction: column;
+    padding-left: 5%;
+    margin-left: 0;
+}
+.digitext h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    color: gray;
+}
+.digitext p{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    padding-bottom: 3vh;
+    color: gray;
+}
+.description img{
+    width: 40px;
+    margin: 0;
+}
+.description p{
+    margin-left: 5%;
+    margin-top: 0;
+    font-size: 30px;
+    color: gray;
+    transition: all 0.2s;
+}
+#third{
+    padding-bottom: 5%;
+}
+.digimage{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3%;
+}
+.digimage img{
+    width: 380px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+.showcase{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 95vh;
+}
+.portfolio{
+    flex:50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.portfolio h1{
+    color: white;
+    font-size: 60px;
+    transition: all 0.3s;
+    text-align: center;
+}
+.portfolio button{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: var(--primary);
+    color: white;
+    border: 2px solid white;
+    width: 170px;
+    height: 120%;
+    font-family: 'Oswald', sans-serif;
+    transition: all 0.4s;
+}
+.portfolio button:hover{
+    transform: scale(1.05);
+}
+#photography{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../Assets/photography.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition: all 0.4s;
+}
+#photography:hover{
+    background-size: 103%;
+
+}
+#videography{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../Assets/videography1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition: all 0.4s;
+}
+#videography:hover{
+    background-size: 103%;
+}
+.webdev{
+    display:flex;
+    flex-direction: row;
+    text-align: right;
+    height: 100%;
+}
+.webimage{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:5%;
+}
+.webimage img{
+    width: 40vw;
+    border-radius: 10px;
+}
+.webtext{
+    flex: 50%;
+    width: 80%;
+    padding-right: 5%;
+}
+.webtext h1{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.webtext p{
+    font-size: 20px;
+}
+.webdescription{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.webdescription img{
+    width: 40px;
+    margin-right: 3%;
+}
+.webdescription p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+@media only screen and (max-width: 1120px){
+    .workintro{
+        background: url("../Assets/videography2.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 90vh;
+    }
+    .showcase{
+        display: flex;
+        flex-direction: column;
+        height: 110vh;
+    }
+    .description img{
+        width: 30px;
+        margin: 0;
+    }
+    .webdescription img{
+        width: 30px;
+        margin-right: 3%;
+    }
+    .digimage img{
+        width: 320px;
+        border-radius: 15px;
+    }
+    .showcase{
+        height: 110vh;
+    }
+    .portfolio h1{
+        color: white;
+        font-size: 45px;
+    }
+    .digitext{
+        width: 80%;
+    }
+    .webdev{
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 850px){
+    .workintro h1{
+        font-size: 100px;
+    }
+    .digitext{
+        flex: 60%;
+    }
+    .digimage{
+        flex: 40%;
+    }
+    .digitization p{
+        font-size: 20px;
+    }
+    .digitization h1{
+        font-size: 25px;
+    }
+    .digitization {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .digimage img{
+        width: 45vw;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .webdev{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .webdev h1{
+        font-size: 35px;
+        margin-top: 0;
+    }
+    .webdev p{
+        font-size: 17px;
+        margin-top: 0;
+    }
+    .webimage img{
+        width: 70vw;
+        border-radius: 10px;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 1120px) and (orientation: landscape){
+    .digitization{
+        height: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .digimage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+        width: 100%;
+        height: 100%;
+    }
+    .digimage img{
+        width: 25vw;
+        border-radius: 15px;
+        padding-bottom: 0;
+    }
+    .digitext h1{
+        font-size: 4vw;
+        margin-bottom: 0;
+        color: gray;
+    }
+    .digitext p{
+        font-size: 2vw;
+        margin-bottom: 2vh;
+        margin-top: 3px;
+    }
+    .text h1{
+        font-size: 70px;
+        color: white;
+    }
+    .webdev{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .webtext{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .webdev h1{
+        font-size: 25px;
+        margin-top: 0;
+    }
+    .webdev p{
+        font-size: 13px;
+        margin-top: 0;
+    }
+    .webimage img{
+        width: 40vw;
+        border-radius: 10px;
+    }
+}

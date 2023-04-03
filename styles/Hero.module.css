@@ -1,0 +1,332 @@
+.hero{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    scroll: smooth;
+}
+.background{
+    background-image: url("../Assets/background1.png");
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.logo{
+    background-image: url("../Assets/creativehousewhite.png");
+    background-size: 35vw;
+    background-position: top 30% left 10%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.foreground{
+    background-image: url("../Assets/foreground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    background-image: url("../Assets/bottomwhite.png");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.second{
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    padding: 0;
+    z-index: 1;
+}
+.textBox{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.welcomeText{
+    flex-direction: column;
+    margin-left: 10%;
+}
+.welcomeText h1{
+    color: #545454;
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+.welcomeText p{
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.welcomeText button{
+    margin-top: 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: var(--primary);
+    color: black;
+    border: 2px solid black;
+    width: 220px;
+    height: 40px;
+    font-family: 'Oswald', sans-serif;
+    transition: all 0.4s;
+}
+.welcomeText button:hover{
+    transform: scale(1.03);
+}
+.imagecontainer{
+    flex: 50%;
+    padding-left: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+.imagecontainer h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.featuredwork{
+    width: 35vw;
+    height: 23vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("../Assets/featured.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-bottom: 10%;
+}
+.featuredwork h1{
+    font-size: 50px;
+}
+.featuredwork p{
+    width: cover;
+    display: none;
+}
+.featuredwork:hover{
+    background-size: 103%;
+}
+.featuredwork p:hover{
+    display: block;
+}
+.about{
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("../Assets/homeabout.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+.filler{
+    flex:50%;
+    width: 100%;
+}
+.aboutText{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.aboutText h1{
+    font-size: 6vw;
+    margin-bottom: 0;
+    padding-top: 10%;
+}
+.aboutWrapper{
+    width: 80%;
+    font-size: 30px;
+}
+.trustedBy{
+    width: 80%;
+    font-size: 20px;
+    
+}
+.clients{
+    width: 120px;
+    margin-left: 10px;
+    padding-bottom: 15%;
+}
+
+@media only screen and (max-width: 1120px){
+    .welcomeText{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .welcomeText h1{
+        color: #545454;
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+    .welcomeText p{
+        font-size: 25px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .second{
+        height: 100%;
+    }
+    .imagecontainer{
+        padding-left: 0; 
+        padding-bottom: 0;   
+    }
+    .clients{
+        width: 80px;
+    }
+    
+}
+@media only screen and (max-width: 820px) and (orientation: portrait){
+    .logo{
+        background-size: 60vw;
+        background-position: top 40% left 50%;
+    }
+    .welcomeText h1{
+        font-size: 27px;
+        margin-bottom: 5px;
+    }
+    .welcomeText p{
+        font-size: 17px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .second{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .featuredwork{
+        width: 80vw;
+        height: 50vw;
+        padding-bottom: 0;
+    }
+    .imagecontainer h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .about{
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),url("../Assets/smallworkabout.jpg");
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 90vh;
+    }
+    .filler{
+        display: none;
+    }
+    .aboutText{
+        flex: 100%;
+    }
+    .aboutText h1{
+        font-size: 55px;
+    }
+    .aboutWrapper{
+        font-size: 22px;
+    }
+}
+@media only screen and (max-height: 450px) and (orientation: landscape){
+    .logo{
+        background-size: 35vw;
+        background-position: top 30% left 50%;
+    }
+    .second{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;    
+        align-items: center;
+    }
+    .welcomeText h1{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .welcomeText p{
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .welcomeText button{
+        margin-top: 8%;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        align-content: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 15px;
+        background-color: var(--primary);
+        color: black;
+        border: 2px solid black;
+        width: 180px;
+        height: 35px;
+        font-family: 'Oswald', sans-serif;
+        transition: all 0.4s;
+    }
+    .imagecontainer{
+        padding-bottom: 0;
+    }
+    .imagecontainer h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .featuredwork{
+        width: 40vw;
+        height: 50vh;
+    }
+    .filler{
+        flex:50%;
+        width: 100%;
+        display: inherit;
+    }
+    .aboutText{
+        flex: 50%;
+    }
+    .aboutText h1{
+        font-size: 5vw;
+        margin-bottom: 0;
+        padding-top: 10%;
+    }
+    .aboutWrapper{
+        width: 60%;
+        font-size: 15px;
+    }
+    .clients{
+        width: 60px;
+    }
+}
