@@ -40,7 +40,7 @@ function Form() {
 
   return ( 
       <div className = {style.form}>
-        <form className = {style.formContainer} onSubmit={handleSubmit}>
+        <form className = {style.formContainer} data-netlify="true" onSubmit={handleSubmit}>
           <div className = {style.input}>
             <label>Name</label>
             <input

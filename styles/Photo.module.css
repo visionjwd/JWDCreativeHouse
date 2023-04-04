@@ -28,6 +28,7 @@
 .rights{
     flex: 20%;
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;    
@@ -35,12 +36,14 @@
 .back{
     margin-top: 50px;
     margin-bottom: 0;
+    width: 100%;
 }
 .rights button{
     height: 50px;
     background: var(--primary);
     border: none;
     color: black;
+    justify-self: center;
 }
 .rights svg{
     font-size: 60px;
@@ -48,20 +51,26 @@
 }
 .titlesection{
     width: 100%;
-    writing-mode: vertical-rl;
+    height: 100%;
+    writing-mode: vertical-lr;
+    margin-left: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
+    display: block;
 }
 .titlesection h1{
     display:flex;
     flex-direction: row;
+    justify-content: center;
     padding-top: 5%;
     font-size: 100px;
     position: fixed;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 5%;
+    margin: 0;
 }
 .projectContainer{
     background-size: cover;
@@ -159,7 +168,6 @@
         font-size: 12px;   
         width: 80px;
         margin-top: 0;
-        height: 27px;
     }
     .toVid button{
         margin-top: 40px;
