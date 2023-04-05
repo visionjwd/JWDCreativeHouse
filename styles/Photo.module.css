@@ -31,15 +31,15 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;  
+    writing-mode: horizontal-tb;  
 }
 .back{
     margin-top: 50px;
     margin-bottom: 0;
-    width: 100%;
 }
 .rights button{
-    height: 50px;
+    height: 100%;
     background: var(--primary);
     border: none;
     color: black;
@@ -52,25 +52,23 @@
 .titlesection{
     width: 100%;
     height: 100%;
-    writing-mode: vertical-lr;
     margin-left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    display: block;
+    padding-left: 10%;
 }
-.titlesection h1{
+.titlecontainer{
+    writing-mode: vertical-lr;
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
     padding-top: 5%;
-    font-size: 100px;
     position: fixed;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 5%;
     margin: 0;
+}
+.titlecontainer h1{
+    font-size: 100px;
 }
 .projectContainer{
     background-size: cover;

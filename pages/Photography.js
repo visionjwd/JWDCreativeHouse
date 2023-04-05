@@ -21,11 +21,12 @@ const Photography = () => {
           <button><ArrowBackIosNewIcon/></button>
         </Link>
         <div className = {style.titlesection}>
-          <h1>PHOTOS
+          <div className = {style.titlecontainer}>
+          <h1>PHOTOS</h1>
             <Link className = {style.toVid} href = '/Videography'>
               <button>VIDEOS</button>
             </Link>
-          </h1>
+          </div>
         </div>
       </div>
       <ul className = {style.projectContainer}>

@@ -16,11 +16,12 @@ const Videography = () => {
         <button><ArrowBackIosNewIcon/></button>
       </Link>
       <div className = {style.titlesection}>
-        <h1>VIDEOS
+        <div className = {style.titlecontainer}>
+        <h1>VIDEOS</h1>
           <Link className = {style.toVid} href = '/Photography'>
             <button>PHOTOS</button>
           </Link>
-        </h1>
+        </div>
       </div>
     </div>
     <div className = {style.videogallery}>
