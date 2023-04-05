@@ -81,6 +81,8 @@
         justify-content: center;   
         align-items: center;
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Assets/servicevertical.jpg');
+        top:0;
+        left:0;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
