@@ -20,10 +20,14 @@ export default function contacts(req, res) {
         html: `<div>Subject: ${req.body.subject}<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`
        }
        transporter.sendMail(mailData, function (err, info) {
-        if(err)
+        if(err){
           console.log(err)
-        else
+          res.status(404).send("error occured");
+        }
+        else{
           console.log(info)
+          res.status(200).send("Message sent successfully.");
+      }
       })
-      res.status(200).send("Message sent successfully.");
+      
   }
