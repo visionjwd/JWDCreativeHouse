@@ -22,7 +22,7 @@ const Photography = () => {
         </Link>
         <div className = {style.titlesection}>
           <div className = {style.titlecontainer}>
-          <h1>PHOTOS</h1>
+            <h1>PHOTOS</h1>
             <Link className = {style.toVid} href = '/Videography'>
               <button>VIDEOS</button>
             </Link>
