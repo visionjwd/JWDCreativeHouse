@@ -47,8 +47,7 @@ const importfest = () => {
   return (
     <div className = {style.Name}>
       <Head>
-        <title>Work-JWD Creative House</title>
-        <meta name="description" content="Importfest 2022" />
+        <title>Photography-JWD Creative House</title>
       </Head>
     <div className = {style.gallery}>
       <ResponsiveMasonry className = {style.masonry} columnsCountBreakPoints={{350: 1, 850:2}}>

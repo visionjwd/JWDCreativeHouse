@@ -17,6 +17,7 @@ import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew'
 import Link from 'next/link'
 import style from '../styles/Portfolio.module.css'
+import Head from 'next/head'
 
 const images = [
     m41,
@@ -38,6 +39,9 @@ const images = [
 const m4 = () => {
   return (
     <div className = {style.Name}>
+      <Head>
+        <title>Photography-JWD Creative House</title>
+      </Head>
     <div className = {style.gallery}>
       <ResponsiveMasonry className = {style.masonry} columnsCountBreakPoints={{350: 1, 850:2}}>
           <Masonry gutter = "10px">

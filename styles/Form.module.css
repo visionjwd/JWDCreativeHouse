@@ -64,3 +64,9 @@
         width: 95%;
     }
 }
+@media only screen and (max-height: 450px) and (orientation: landscape){
+    .form{
+        height: 100%;
+        padding-bottom: 5%;
+    }
+}

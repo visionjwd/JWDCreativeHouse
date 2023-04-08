@@ -59,9 +59,20 @@ const Services = () => {
           <div className = {style.photoprice}>
             <h1>Commercial</h1>
             <h2>Kickstart Package:</h2> 
-            <p></p>
+            <h3>The "minimalist" package!</h3>
+            <p>- 2 Vertical Reel Videos</p>
+            <p>- Basic Color Grading</p>
+            <p>- Basic Lighting on set</p>
             <h2>Cinema Package:</h2>
+            <h3>Looking for something cinematic?</h3>
+            <p>- Thorough pre-production with active storyboards</p>
+            <p>- Professional Color grading with Davinci Resolve</p>
+            <p>- Amaran pro lighting setup on set</p>
             <h2>Social Media Package:</h2>
+            <h3>Everything you need for Reels and Tiktok!</h3>
+            <p>- Thorough planning with target audience selection.</p>
+            <p>- Organic, high quality reels with engaging subtitles.</p>
+            <p>- 6-7 Reels/Tiktoks Monthly</p>
           </div>
         </div>
       </div>

@@ -13,6 +13,7 @@ import m7 from '../mclarengallery/m7.jpg'
 import m8 from '../mclarengallery/m8.jpg'
 import m9 from '../mclarengallery/m9.jpg'
 import m10 from '../mclarengallery/m10.jpg'
+import Head from 'next/head'
 
 
 const images = [
@@ -31,6 +32,9 @@ const images = [
 const mclaren = () => {
   return (
     <div className = {style.Name}>
+      <Head>
+        <title>Photography-JWD Creative House</title>
+      </Head>
     <div className = {style.gallery}>
       <ResponsiveMasonry className = {style.masonry} columnsCountBreakPoints={{350: 1, 850:2}}>
           <Masonry gutter = "10px">

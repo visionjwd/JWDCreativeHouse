@@ -16,6 +16,7 @@ import a10 from '../Asobu/a10.jpg'
 import a11 from '../Asobu/a11.jpg'
 import a12 from '../Asobu/a12.jpg'
 import a13 from '../Asobu/a13.jpg'
+import Head from 'next/head'
 
 const images = [
     a1,
@@ -37,6 +38,9 @@ const images = [
 const asobu = () => {
   return (
     <div className = {style.Name}>
+      <Head>
+        <title>Photography-JWD Creative House</title>
+      </Head>
     <div className = {style.gallery}>
       <ResponsiveMasonry className = {style.masonry} columnsCountBreakPoints={{350: 1, 850:2}}>
           <Masonry gutter = "10px">
