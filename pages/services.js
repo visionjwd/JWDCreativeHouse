@@ -59,7 +59,7 @@ const Services = () => {
           <div className = {style.photoprice}>
             <h1>Commercial</h1>
             <h2>Kickstart Package:</h2> 
-            <h3>The "minimalist" package!</h3>
+            <h3>The Minimalist package!</h3>
             <p>- 2 Vertical Reel Videos</p>
             <p>- Basic Color Grading</p>
             <p>- Basic Lighting on set</p>
