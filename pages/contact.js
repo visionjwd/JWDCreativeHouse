@@ -1,7 +1,6 @@
 import React from 'react'
 import style from '../styles/Contact.module.css'
 import Form from '../Components/Form'
-import { ChakraProvider, ThemeProvider } from '@chakra-ui/react'
 import Head from 'next/head'
 
 const Contact = () => {
