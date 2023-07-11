@@ -16,7 +16,7 @@ const Contact = () => {
          <div className = {style.options}>
           <p>Reach out to us via:</p>
           <div className = {style.mailcontainer}>
-            <a href = "mailto:info@jwdcreativehouse.com">info@jwdcreativehouse.com</a>
+            <a href = "mailto:info@jwdcreativehouse.com">info@jwdcreativehouse.ca</a>
           </div>
           <div className = {style.mailcontainer}>
             <p>647-838-6312</p>

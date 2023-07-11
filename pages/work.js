@@ -13,6 +13,8 @@ const Work = () => {
     <Head>
       <title>Work-JWD Creative House</title>
       <meta name="description" content="Latest Work" />
+      <meta name="keywords" content="Toronto Production Company, videography, toronto videography, JWD Creative House, JWD Creative, Toronto Videographer, Toronto, Toronto Videography"/>
+      <meta name="robots" content="index,follow"/>
     </Head>
     <div className = {style.work}>
       <div className = {style.workintro}>

@@ -10,6 +10,8 @@ const Videography = () => {
       <Head>
         <title>Videography-JWD Creative House</title>
         <meta name="description" content="Videography Portfolio" />
+        <meta name="keywords" content="Toronto Production Company, videography, toronto videography, JWD Creative House, JWD Creative, Toronto Videographer, Toronto, Toronto Videography"/>
+        <meta name="robots" content="index,follow"/>
       </Head>
     <div className = {style.rights}>
       <Link className = {style.back} href = '/work'>

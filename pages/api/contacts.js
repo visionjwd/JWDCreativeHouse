@@ -14,7 +14,7 @@ export default function contacts(req, res) {
       })
       const mailData = {
         from: 'jwdcreativehouse.do.not.reply@gmail.com',
-        to: 'info@jwdcreativehouse.com',
+        to: 'info@jwdcreativehouse.ca',
         subject: `Message From ${req.body.name}`,
         text:  req.body.subject + req.body.message + " | Sent from: " + req.body.email,
         html: `<div>Subject: ${req.body.subject}<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`
