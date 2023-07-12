@@ -43,7 +43,7 @@ const m4 = () => {
         <title>Photography-JWD Creative House</title>
         <meta name="description" content="Previous Work - Photography" />
         <meta name="keywords" content="Toronto Production Company, videography, toronto videography, JWD Creative House, JWD Creative, Toronto Videographer, Toronto, Toronto Videography"/>
-        <meta name="robots" content="noindex,follow"/>
+        <meta name="robots" content="noindex,nofollow"/>
       </Head>
     <div className = {style.gallery}>
       <ResponsiveMasonry className = {style.masonry} columnsCountBreakPoints={{350: 1, 850:2}}>

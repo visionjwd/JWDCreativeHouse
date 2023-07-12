@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;    
-    color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Assets/servicesbghori.jpg');
+    color: black;
+    background: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -32,7 +32,7 @@
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     width: 150px;
-    color: white;
+    color: black;
     border-radius: 15px;
     border: 2px solid gray;
     transition: all 0.3s;
@@ -55,7 +55,7 @@
     font-size: 20px;
 }
 .pricecontainer p{
-    color: #E5E5E5;
+    color: black;
 }
 .photoprice{
     width:80%;
@@ -63,12 +63,16 @@
     padding-right: 5%;
     height: 100%;
     border-radius: 20px;
-    border: 2px solid white;
+    border: 2px solid gray;
     margin-bottom: 7%;
     background: linear-gradient(rgba(256, 256, 256, 0.1), rgba(256, 256, 256, 0.1));
 }
 .photoprice h2{
     color: #FF4900;
+}
+.pricing span{
+    font-size: 20px;
+    color: gray;    
 }
 @media only screen and (max-width: 750px) and (orientation: portrait){
     .pricing{
@@ -80,13 +84,9 @@
         flex-direction: column;
         justify-content: center;   
         align-items: center;
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Assets/servicevertical.jpg');
         top:0;
         left:0;
         background-size: 100vh;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
     }
     .priceIntro{
         height: 100%;

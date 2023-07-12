@@ -22,7 +22,7 @@ const Navbar = () => {
         </button>
         <Link href ="/" onClick={toggleNavbar}> Home </Link>
         <Link href ="/work" onClick={toggleNavbar}> Work </Link>
-        <Link href ="/services" onClick={toggleNavbar}> Services </Link>
+        <Link href ="/services" onClick={toggleNavbar}> Pricing </Link>
         <Link href ="/contact" onClick={toggleNavbar}>Contact</Link>
     </div>
   <div className = {nav.navbar}>
@@ -34,7 +34,7 @@ const Navbar = () => {
     <div className = {nav.rightSide}>
       <Link href ="/"> Home </Link>
       <Link href ="/work"> Work </Link>
-      <Link href ="/services"> Services </Link>
+      <Link href ="/services"> Pricing </Link>
       <Link href ="/contact">
         <button className = {nav.contactbutton}>
         Contact
