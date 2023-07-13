@@ -25,7 +25,7 @@ function Consultation() {
   useEffect(() => {
     if (widgetLoaded && typeof window.Calendly !== 'undefined') {
       window.Calendly.initInlineWidget({
-        url: 'https://calendly.com/jwdcreativehouse/30min',
+        url: 'https://calendly.com/jwdcreativehouse/30min?hide_gdpr_banner=1',
         parentElement: document.getElementById('booking'),
         prefill: {},
         utm: {},
