@@ -5,11 +5,9 @@
     flex-direction: row;
     justify-content: center;    
     color: black;
-    background: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    background: #E5E5E5;
+    background-image: url('../Assets/noise.png');
+    background-repeat: repeat;
 }
 .priceIntro{
     flex: 40%;
@@ -65,7 +63,8 @@
     border-radius: 20px;
     border: 2px solid gray;
     margin-bottom: 7%;
-    background: linear-gradient(rgba(256, 256, 256, 0.1), rgba(256, 256, 256, 0.1));
+    background: white;
+    //background: linear-gradient(rgba(256, 256, 256, 0.1), rgba(256, 256, 256, 0.1));
 }
 .photoprice h2{
     color: #FF4900;

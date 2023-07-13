@@ -2,6 +2,8 @@ import React from 'react'
 import style from '../styles/Contact.module.css'
 import Form from '../Components/Form'
 import Head from 'next/head'
+import Consultation from '@/Components/Consultation'
+
 
 const Contact = () => {
   return (
@@ -16,16 +18,14 @@ const Contact = () => {
          <div className = {style.options}>
           <p>Reach out to us via:</p>
           <div className = {style.mailcontainer}>
-            <a href = "mailto:visionjwd@gmail.com">Mail</a>
+            <a href = "mailto:info@jwdcreativehouse.ca">info@jwdcreativehouse.ca</a>
           </div>
           <div className = {style.mailcontainer}>
             <p>647-838-6312</p>
           </div>
          </div>
       </div>
-      <div className = {style.formSide}>
-          <Form/>
-      </div>
+      <div className = {style.formSide}><Consultation/></div>
       </div>
     </div>
   )
