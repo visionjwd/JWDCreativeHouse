@@ -33,6 +33,14 @@ const Services = () => {
           <p>- Social Media posts/page redesign for guaranteed 40% increase in engagement rate</p>
           <p>- Standard photography package included</p>
         </div>
+        <div className = {style.photoprice}>
+            <h1>Web Development</h1>
+            <h2><span>From $500</span></h2>
+            <h3>Essential Business Website!</h3>
+            <p>- Clean, eye-catching landing page with links to socials, email, etc</p>
+            <p>- SEO Oriented metatags & Keyword implementation for maximum Google Visibility</p>
+            <p>- Custom coded with dynamic sitemap, increasing rating on search engines</p>
+          </div>
         <div className = {style.mediaservices}>
           <div className = {style.photoprice}>
             <h1>Product Photography</h1>
