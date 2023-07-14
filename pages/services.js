@@ -15,7 +15,7 @@ const Services = () => {
     <div className = {style.pricing}>
       <div className = {style.priceIntro}>
         <div className = {style.pricetext}>
-          <h1>Pricing</h1>
+          <h1>Services</h1>
           <p>Ready to work with us? Check out which package is right for your brand.</p>
           <p>Contact us Today to book a FREE Consultation!</p>
           <Link href = '/contact'>
