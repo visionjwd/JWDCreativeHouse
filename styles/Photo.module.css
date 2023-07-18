@@ -94,6 +94,7 @@
 .photobg{
     width: 60vw;
     height: 35vw;
+    border-radius: 15px;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
