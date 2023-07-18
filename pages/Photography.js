@@ -4,6 +4,7 @@ import M4 from '../Assets/m4title.jpg'
 import importfestpic from '../Assets/importfesttitle.jpg'
 import mclaren from '../Assets/mclaren.jpg'
 import Asobu from '../Assets/asobu.jpg'
+import Interior from '../Interior/I7.jpg'
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew'
 import PhotoLinks from '../Components/PhotoLinks'
 import style from '../styles/Photo.module.css'
@@ -37,6 +38,12 @@ const Photography = () => {
             title = "BMW M4"
             explain = "Private Client"
             path = '/m4'
+          />
+          <PhotoLinks
+            bgi = {Interior}
+            title = "Interior Design"
+            explain = "Real Estate Captures"
+            path = '/Estate'
           />
           <PhotoLinks
             bgi = {importfestpic}
