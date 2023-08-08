@@ -33,6 +33,7 @@ const Photography = () => {
         </div>
       </div>
       <ul className = {style.projectContainer}>
+      <h2>Stunning photos to showcase your products and services</h2>
           <PhotoLinks
             bgi = {M4}
             title = "BMW M4"

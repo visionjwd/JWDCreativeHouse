@@ -56,6 +56,12 @@ const Work = () => {
             <button>Browse videos</button>
           </Link>
         </div>
+        <div className = {style.portfolio} id = {style.reels}>
+          <h1>Social Reels</h1>
+          <Link href = '/Reel'> 
+            <button>Browse videos</button>
+          </Link>
+        </div>
       </div>
       <div className = {style.webdev}>
         <div className = {style.webimage}>

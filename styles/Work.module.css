@@ -25,7 +25,7 @@
 }
 .digitization{
     width:  100%;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     transition: all 0.3s;
@@ -44,8 +44,9 @@
     color: gray;
 }
 .digitext p{
+    margin-top: 0;
     font-size: 30px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 .description{
     display: flex;
@@ -54,8 +55,16 @@
     width: 100%;
     height: 100%;
     margin-left: 0%;
-    padding-bottom: 3vh;
     color: gray;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: 2px solid #00b539;
+    padding: 0,0,0;
+    transition: all 0.4s ease-out;
+}
+.description:hover{
+    background: #c9ffda;
 }
 .description img{
     width: 40px;
@@ -89,10 +98,10 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 95vh;
+    height: 70vh;
 }
 .portfolio{
-    flex:50%;
+    flex:100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -135,7 +144,6 @@
 }
 #photography:hover{
     background-size: 103%;
-
 }
 #videography{
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../Assets/videography1.jpg");
@@ -143,6 +151,19 @@
     background-size: 100%;
     background-position: center;
     transition: all 0.4s;
+}
+#videography:hover{
+    background-size: 103%;
+}
+#reels{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../Assets/reels.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    transition: all 0.4s;
+}
+#reels:hover{
+    background-size: 103%;
 }
 #videography:hover{
     background-size: 103%;
@@ -192,6 +213,11 @@
     align-items: center;
     text-align: left;
 }
+@media only screen and (max-width: 1300px){
+    .showcase{
+        height: 55vh;
+    }
+}
 @media only screen and (max-width: 1120px){
     .workintro{
         width: 100%;
@@ -203,11 +229,6 @@
         background-repeat: no-repeat;
         background-attachment: scroll;
         height: 90vh;
-    }
-    .showcase{
-        display: flex;
-        flex-direction: column;
-        height: 110vh;
     }
     .description img{
         width: 30px;
@@ -222,6 +243,8 @@
         border-radius: 15px;
     }
     .showcase{
+        display: flex;
+        flex-direction: column;
         height: 110vh;
     }
     .portfolio h1{

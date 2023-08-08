@@ -137,8 +137,26 @@
     height: 29vw;
     margin-bottom: 4%;
 }
+.reel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#reelgallery iframe{
+    width: 27vw;
+    height: 50vw;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
 
 @media only screen and (max-width: 750px){
+    .photography h2{
+        font-size: 15px;
+        width: 80%;
+    }
     .photography{
         width: 100%;
         overflow-x: hidden;
@@ -179,6 +197,13 @@
         width: 65vw;
         height: 37vw;
         margin-bottom: 10%;
+    }
+    #reelgallery iframe{
+        width: 65vw;
+        height: 115vw;
+    }
+    .reel{
+        flex-direction: column;
     }
 }
 @media only screen and (max-height: 450px) and (orientation: landscape){

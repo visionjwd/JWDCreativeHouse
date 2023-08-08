@@ -20,13 +20,14 @@ const Videography = () => {
       <div className = {style.titlesection}>
         <div className = {style.titlecontainer}>
         <h1>VIDEOS</h1>
-          <Link className = {style.toVid} href = '/Photography'>
-            <button>PHOTOS</button>
+          <Link className = {style.toVid} href = '/Reel'>
+            <button>REELS</button>
           </Link>
         </div>
       </div>
     </div>
     <div className = {style.videogallery}>
+    <h2>Captivating commercial video produced to attract customers</h2>
     <iframe id = "first" src="https://www.youtube.com/embed/BHRR-FMpDP4" title="YouTube video player" frameBorder="0" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     <iframe id = "second" src="https://www.youtube.com/embed/oBNTakUbmkA" title="YouTube video player" frameBorder="0" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     <iframe id = "third" src="https://www.youtube.com/embed/3SYR_NPKadc" title="YouTube video player" frameBorder="0" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
