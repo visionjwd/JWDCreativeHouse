@@ -21,7 +21,7 @@ const Contact = () => {
             <a href = "mailto:info@jwdcreativehouse.ca">info@jwdcreativehouse.ca</a>
           </div>
           <div className = {style.mailcontainer}>
-            <p>647-838-6312</p>
+            <p></p>
           </div>
          </div>
       </div>
