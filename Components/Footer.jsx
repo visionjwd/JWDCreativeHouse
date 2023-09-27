@@ -28,10 +28,10 @@ const Footer = () => {
       <div className = {style.socialMedia}>
         <h2>Connect With Us!</h2>
         <div className = {style.mediaLinks}>
-          <Link href = "https://www.instagram.com/visionjwd" target = "_blank">
+          <Link href = "https://www.instagram.com" target = "_blank">
             <InstagramIcon/>
           </Link>
-          <Link href = "https://www.linkedin.com/in/junwoooh/" target = "_blank">
+          <Link href = "https://www.linkedin.com" target = "_blank">
             <LinkedInIcon/>
           </Link>
           </div>
